@@ -1,0 +1,165 @@
+<meta charset="utf-8">
+
+<body bgcolor="lightgrey">
+
+<script>
+	
+    window.alert(`🏪 Consulte os produtos na "Promoção da semana" do setor da PADARIA do mercado PREÇOBOM LTDA\n\n➡ Promoção válida nas seguintes filiais:\n\n🏪 Campo novo\n🏪 Camaquã\n🏪 Tristeza`);
+    window.alert(`📊 Para consulta aos produtos:\n\n➡ Digite o produto ou o código correspondente`);
+
+    var prdt = window.prompt(`➡ Digite o produto ou o código correspondente pra consulta:\n\n🍞 1 - Pão\n🧀 2 - Queijo\n🥩 3 - Presunto\n🎂 4 - Bolo\n🥛 5 - Leite\n🍫 6 - Brigadeiro\n🥟 7 - Salgadinhos`);
+    var fili = window.prompt(`➡ Digite as letras correspondentes à filial que deseja consultar:\n\n🏪 CN = Campo Novo\n\n🏪 CQ = Camaquã\n\n🏪 TZ = Tristeza`);
+
+        switch (prdt) {
+
+            case "1":
+            case "Pão":
+            case "pão":
+
+                if (fili == "CN" || fili == "cn") {
+                    document.write(`<center><h2>PRODUTO PESQUISADO:<br> <br>🍞 Pão <br> <br>👍 Preço do produto na promoção: R$ 3,56 o Kg ✔<br> <br>🛒 Estamos esperando por você, aproveite!</h2><br> <br> <br> <h3>🏪 MERCADO PREÇOBOM LTDA <br> <br> FILIAL CAMPO NOVO <br> <br> <br> Rua Alegria, 546 <br> <br> Bairro Campo Novo <br> <br> Porto Alegre / RS <br> <br> Telefone: (51) 1234-5678`);
+
+                    } else if (fili == "CQ" || fili == "cq") {
+                        document.write(`<center><h2>PRODUTO PESQUISADO:<br> <br>🍞 Pão <br> <br>👍 Preço do produto na promoção: R$ 2,12 o Kg ✔<br> <br>🛒 Estamos esperando por você, aproveite!</h2><br> <br><h3>🏪 MERCADO PREÇOBOM LTDA <br> FILIAL CAMAQUÃ <br> <br> Rua das Rosas, 47 <br> <br> Bairro Camaquã <br> <br> Porto Alegre / RS <br> <br> Telefone: (51) 4321-8765`); 
+
+                    } else if (fili == "TZ" || fili == "tz") {
+                        document.write(`<center><h2>PRODUTO PESQUISADO: <br> <br>🍞 Pão  <br> <br>👍 Preço do produto na promoção: R$ 4,89 o Kg ✔ <br> <br>🛒 Estamos esperando por você, aproveite!</h2> <br> <br>  <br> <br><h3>🏪 MERCADO PREÇOBOM LTDA  <br> <br> FILIAL TRISTEZA  <br> <br>  <br> <br> Rua Felicidade, 47  <br> <br> Bairro Tristeza  <br> <br> Porto Alegre / RS  <br> <br> Telefone: (51) 2189-5834`);
+
+                        } else {
+                        	document.write(`<center>🚧 <br> <br> <br><h2>🏪 MERCADO PREÇOBOM LTDA <br> <br>❌ FILIAL PESQUISADA NÃO FAZ PARTE DA NOSSA REDE</h2> <br><h3>🛒 NOSSAS FILIAIS MAIS PRÓXIMAS DE VOCÊ: <br><h4>CN = Campo Novo <br> Rua Alegria 546 - Bairro Campo Novo - Porto Alegre RS - Tel. (51) 1234-5678 <br> <br> CQ = Camaquã <br> <br> Rua das Rosas 47 - Bairro Camaquã - Porto Alegre RS - Tel. (51) 4321-8765 <br> <br> TZ = Tristeza <br> Rua Felicidade 677 - Bairro Tristeza - Porto Alegre RS - Tel. (51) 2189-5834`);
+
+                    }     
+
+                break;
+            
+            case "2":
+            case "Queijo":
+            case "queijo":
+
+                if (fili == "CN" || fili == "cn") {
+                    document.write(`<center><h2>PRODUTO PESQUISADO:<br> <br>🧀 Queijo <br> <br>👍 Preço do produto na promoção: R$ 2,44 cada 100g ✔<br> <br>🛒 Estamos esperando por você, aproveite!</h2><br> <br> <br> <br><h3>🏪 MERCADO PREÇOBOM LTDA <br> <br> FILIAL CAMPO NOVO <br> <br> <br> <br> Rua Alegria, 546 <br> <br> Bairro Campo Novo <br> <br> Porto Alegre / RS <br> <br> Telefone: (51) 1234-5678`);
+
+                    } else if (fili == "CQ" || fili == "cq") {
+                        document.write(`<center><h2>PRODUTO PESQUISADO:<br> <br>🧀 Queijo <br> <br>👍 Preço do produto na promoção: R$ 2,12 cada 100g ✔<br> <br>🛒 Estamos esperando por você, aproveite!</h2><br> <br> <br> <br><h3>🏪 MERCADO PREÇOBOM LTDA <br> <br> FILIAL CAMAQUÃ <br> <br> <br> <br> Rua das Rosas, 47 <br> <br> Bairro Camaquã <br> <br> Porto Alegre / RS <br> <br> Telefone: (51) 4321-8765`); 
+
+                    } else if (fili == "TZ" || fili == "tz") {
+                        document.write(`<center><h2>PRODUTO PESQUISADO:<br> <br>🧀 Queijo <br> <br>👍 Preço do produto na promoção: R$ 4,89 cada 100g ✔<br> <br>🛒 Estamos esperando por você, aproveite!</h2><br> <br> <br> <br><h3>🏪 MERCADO PREÇOBOM LTDA <br> <br> FILIAL TRISTEZA <br> <br> <br> <br> Rua Felicidade, 47 <br> <br> Bairro Tristeza <br> <br> Porto Alegre / RS <br> <br> Telefone: (51) 2189-5834`);             
+                    
+                    } else {
+                        	document.write(`<center>🚧 <br> <br> <br><h2>🏪 MERCADO PREÇOBOM LTDA <br> <br>❌ FILIAL PESQUISADA NÃO FAZ PARTE DA NOSSA REDE</h2> <br><h3>🛒 NOSSAS FILIAIS MAIS PRÓXIMAS DE VOCÊ: <br><h4>CN = Campo Novo <br> Rua Alegria 546 - Bairro Campo Novo - Porto Alegre RS - Tel. (51) 1234-5678 <br> <br> CQ = Camaquã <br> <br> Rua das Rosas 47 - Bairro Camaquã - Porto Alegre RS - Tel. (51) 4321-8765 <br> <br> TZ = Tristeza <br> Rua Felicidade 677 - Bairro Tristeza - Porto Alegre RS - Tel. (51) 2189-5834`);
+
+                    }
+
+                break;
+
+            case "3":
+            case "Presunto":
+            case "presunto":
+
+                if (fili == "CN" || fili == "cn") {
+                    document.write(`<center><h2>PRODUTO PESQUISADO:<br> <br>🥩 Presunto <br> <br>👍 Preço do produto na promoção: R$ 1,90 cada 100g ✔<br> <br>🛒 Estamos esperando por você, aproveite!</h2><br> <br> <br> <br><h3>🏪 MERCADO PREÇOBOM LTDA <br> <br> FILIAL CAMPO NOVO <br> <br> <br> <br> Rua Alegria, 546 <br> <br> Bairro Campo Novo <br> <br> Porto Alegre / RS <br> <br> Telefone: (51) 1234-5678`);
+
+                    } else if (fili == "CQ" || fili == "cq") {
+                        document.write(`<center><h2>PRODUTO PESQUISADO:<br> <br>🥩 Presunto <br> <br>👍 Preço do produto na promoção: R$ 0,87 cada 100g ✔<br> <br>🛒 Estamos esperando por você, aproveite!</h2><br> <br> <br> <br><h3>🏪 MERCADO PREÇOBOM LTDA <br> <br> FILIAL CAMAQUÃ <br> <br> <br> <br> Rua das Rosas, 47 <br> <br> Bairro Camaquã <br> <br> Porto Alegre / RS <br> <br> Telefone: (51) 4321-8765`); 
+
+                    } else if (fili == "TZ" || fili == "tz") {
+                        document.write(`<center><h2>PRODUTO PESQUISADO:<br> <br>🥩 Presunto <br> <br>👍 Preço do produto na promoção: R$ 2,99 cada 100g ✔<br> <br>🛒 Estamos esperando por você, aproveite!</h2><br> <br> <br> <br><h3>🏪 MERCADO PREÇOBOM LTDA <br> <br> FILIAL TRISTEZA <br> <br> <br> <br> Rua Felicidade, 47 <br> <br> Bairro Tristeza <br> <br> Porto Alegre / RS <br> <br> Telefone: (51) 2189-5834`);             
+                    
+                    } else {
+                        	document.write(`<center>🚧 <br> <br> <br><h2>🏪 MERCADO PREÇOBOM LTDA <br> <br>❌ FILIAL PESQUISADA NÃO FAZ PARTE DA NOSSA REDE</h2> <br><h3>🛒 NOSSAS FILIAIS MAIS PRÓXIMAS DE VOCÊ: <br><h4>CN = Campo Novo <br> Rua Alegria 546 - Bairro Campo Novo - Porto Alegre RS - Tel. (51) 1234-5678 <br> <br> CQ = Camaquã <br> <br> Rua das Rosas 47 - Bairro Camaquã - Porto Alegre RS - Tel. (51) 4321-8765 <br> <br> TZ = Tristeza <br> Rua Felicidade 677 - Bairro Tristeza - Porto Alegre RS - Tel. (51) 2189-5834`);
+
+                    }
+
+                break;
+
+            case "4":
+            case "Bolo":
+            case "bolo":
+
+                if (fili == "CN" || fili == "cn") {
+                    document.write(`<center><h2>PRODUTO PESQUISADO:<br> <br>🎂 Bolo <br> <br>👍 Preço do produto na promoção R$ 6,32 a unidade ✔<br> <br>🛒 Estamos esperando por você, aproveite!</h2><br> <br> <br> <br><h3>🏪 MERCADO PREÇOBOM LTDA <br> <br> FILIAL CAMPO NOVO <br> <br> <br> <br> Rua Alegria, 546 <br> <br> Bairro Campo Novo <br> <br> Porto Alegre / RS <br> <br> Telefone: (51) 1234-5678`);
+
+                    } else if (fili == "CQ" || fili == "cq") {
+                        document.write(`<center><h2>PRODUTO PESQUISADO:<br> <br>🎂 Bolo <br> <br>👍 Preço do produto na promoção: R$ 5,46 a unidade ✔<br> <br>🛒 Estamos esperando por você, aproveite!</h2><br> <br> <br> <br><h3>🏪 MERCADO PREÇOBOM LTDA <br> <br> FILIAL CAMAQUÃ <br> <br> <br> <br> Rua das Rosas, 47 <br> <br> Bairro Camaquã <br> <br> Porto Alegre / RS <br> <br> Telefone: (51) 4321-8765`); 
+
+                    } else if (fili == "TZ" || fili == "tz") {
+                        document.write(`<center><h2>PRODUTO PESQUISADO:<br> <br>🎂 Bolo <br> <br>👍 Preço do produto na promoção: R$ 7,43 a unidade ✔<br> <br>🛒 Estamos esperando por você, aproveite!</h2><br> <br> <br> <br><h3>🏪 MERCADO PREÇOBOM LTDA <br> <br> FILIAL TRISTEZA <br> <br> <br> <br> Rua Felicidade, 47 <br> <br> Bairro Tristeza <br> <br> Porto Alegre / RS <br> <br> Telefone: (51) 2189-5834`);             
+                    
+                    } else {
+                        	document.write(`<center>🚧 <br> <br> <br><h2>🏪 MERCADO PREÇOBOM LTDA <br> <br>❌ FILIAL PESQUISADA NÃO FAZ PARTE DA NOSSA REDE</h2> <br><h3>🛒 NOSSAS FILIAIS MAIS PRÓXIMAS DE VOCÊ: <br><h4>CN = Campo Novo <br> Rua Alegria 546 - Bairro Campo Novo - Porto Alegre RS - Tel. (51) 1234-5678 <br> <br> CQ = Camaquã <br> <br> Rua das Rosas 47 - Bairro Camaquã - Porto Alegre RS - Tel. (51) 4321-8765 <br> <br> TZ = Tristeza <br> Rua Felicidade 677 - Bairro Tristeza - Porto Alegre RS - Tel. (51) 2189-5834`);
+
+                    }
+
+                break;
+           
+            case "5":
+            case "Leite":
+            case "leite":
+
+                if (fili == "CN" || fili == "cn") {
+                    document.write(`<center><h2>PRODUTO PESQUISADO: <br> <br>🥛 Leite  <br> <br>👍 Preço do produto na promoção: R$ 4,11 o litro ✔ <br> <br>🛒 Estamos esperando por você, aproveite!</h2> <br> <br>  <br> <br><h3>🏪 MERCADO PREÇOBOM LTDA  <br> <br> FILIAL CAMPO NOVO  <br> <br>  <br> <br> Rua Alegria, 546  <br> <br> Bairro Campo Novo  <br> <br> Porto Alegre / RS  <br> <br> Telefone: (51) 1234-5678`);
+
+                    } else if (fili == "CQ" || fili == "cq") {
+                        document.write(`<center><h2>PRODUTO PESQUISADO: <br> <br>🥛 Leite  <br> <br>👍 Preço do produto na promoção: R$ 3,78 o litro ✔ <br> <br>🛒 Estamos esperando por você, aproveite!</h2> <br> <br>  <br> <br><h3>🏪 MERCADO PREÇOBOM LTDA  <br> <br> FILIAL CAMAQUÃ  <br> <br>  <br> <br> Rua das Rosas, 47  <br> <br> Bairro Camaquã  <br> <br> Porto Alegre / RS  <br> <br> Telefone: (51) 4321-8765`); 
+
+                    } else if (fili == "TZ" || fili == "tz") {
+                        document.write(`<center><h2>PRODUTO PESQUISADO: <br> <br>🥛 Leite  <br> <br>👍 Preço do produto na promoção: R$ 5,50 o litro ✔ <br> <br>🛒 Estamos esperando por você, aproveite!</h2> <br> <br>  <br> <br><h3>🏪 MERCADO PREÇOBOM LTDA  <br> <br> FILIAL TRISTEZA  <br> <br>  <br> <br> Rua Felicidade, 47  <br> <br> Bairro Tristeza  <br> <br> Porto Alegre / RS  <br> <br> Telefone: (51) 2189-5834`);             
+                    
+                    } else {
+                        	document.write(`<center>🚧 <br> <br> <br><h2>🏪 MERCADO PREÇOBOM LTDA <br> <br>❌ FILIAL PESQUISADA NÃO FAZ PARTE DA NOSSA REDE</h2> <br><h3>🛒 NOSSAS FILIAIS MAIS PRÓXIMAS DE VOCÊ: <br><h4>CN = Campo Novo <br> Rua Alegria 546 - Bairro Campo Novo - Porto Alegre RS - Tel. (51) 1234-5678 <br> <br> CQ = Camaquã <br> <br> Rua das Rosas 47 - Bairro Camaquã - Porto Alegre RS - Tel. (51) 4321-8765 <br> <br> TZ = Tristeza <br> Rua Felicidade 677 - Bairro Tristeza - Porto Alegre RS - Tel. (51) 2189-5834`);
+
+                    }
+
+                break;
+
+            case "6":
+            case "Brigadeiro":
+            case "brigadeiro":
+
+                if (fili == "CN" || fili == "cn") {
+                    document.write(`<center><h2>PRODUTO PESQUISADO: <br> <br>🍫 Brigadeiro  <br> <br>👍 Preço do produto na promoção: R$ R$ 2,50 a unidade ✔ <br> <br>🛒 Estamos esperando por você, aproveite!</h2> <br> <br>  <br> <br><h3>🏪 MERCADO PREÇOBOM LTDA  <br> <br> FILIAL CAMPO NOVO  <br> <br>  <br> <br> Rua Alegria, 546  <br> <br> Bairro Campo Novo  <br> <br> Porto Alegre / RS  <br> <br> Telefone: (51) 1234-5678`);
+
+                    } else if (fili == "CQ" || fili == "cq") {
+                        document.write(`<center><h2>PRODUTO PESQUISADO: <br> <br>🍫 Brigadeiro  <br> <br>👍 Preço do produto na promoção: R$ 1,75 a unidade ✔ <br> <br>🛒 Estamos esperando por você, aproveite!</h2> <br> <br>  <br> <br><h3>🏪 MERCADO PREÇOBOM LTDA  <br> <br> FILIAL CAMAQUÃ  <br> <br>  <br> <br> Rua das Rosas, 47  <br> <br> Bairro Camaquã  <br> <br> Porto Alegre / RS  <br> <br> Telefone: (51) 4321-8765`); 
+
+                    } else if (fili == "TZ" || fili == "tz") {
+                        document.write(`<center><h2>PRODUTO PESQUISADO: <br> <br>🍫 Brigadeiro  <br> <br>👍 Preço do produto na promoção: R$ 3,50 a unidade ✔ <br> <br>🛒 Estamos esperando por você, aproveite!</h2> <br> <br>  <br> <br><h3>🏪 MERCADO PREÇOBOM LTDA  <br> <br> FILIAL TRISTEZA  <br> <br>  <br> <br> Rua Felicidade, 47  <br> <br> Bairro Tristeza  <br> <br> Porto Alegre / RS  <br> <br> Telefone: (51) 2189-5834`);             
+                    
+                    } else {
+                            document.write(`<center>🚧 <br> <br> <br><h2>🏪 MERCADO PREÇOBOM LTDA <br> <br>❌ FILIAL PESQUISADA NÃO FAZ PARTE DA NOSSA REDE</h2> <br><h3>🛒 NOSSAS FILIAIS MAIS PRÓXIMAS DE VOCÊ: <br><h4>CN = Campo Novo <br> Rua Alegria 546 - Bairro Campo Novo - Porto Alegre RS - Tel. (51) 1234-5678 <br> <br> CQ = Camaquã <br> <br> Rua das Rosas 47 - Bairro Camaquã - Porto Alegre RS - Tel. (51) 4321-8765 <br> <br> TZ = Tristeza <br> Rua Felicidade 677 - Bairro Tristeza - Porto Alegre RS - Tel. (51) 2189-5834`);
+                    }
+
+                break;  
+
+            case "7":
+            case "Salgadinhos":
+            case "salgadinhos":
+
+                if (fili == "CN" || fili == "cn") {
+                    document.write(`<center><h2>PRODUTO PESQUISADO: <br> <br>🥟 Salgadinhos  <br> <br>👍 Preço do produto na promoção: R$ 23,27 o Kg ✔ <br> <br>🛒 Estamos esperando por você, aproveite!</h2> <br> <br>  <br> <br><h3>🏪 MERCADO PREÇOBOM LTDA  <br> <br> FILIAL CAMPO NOVO  <br> <br>  <br> <br> Rua Alegria, 546  <br> <br> Bairro Campo Novo  <br> <br> Porto Alegre / RS  <br> <br> Telefone: (51) 1234-5678`);
+
+                    } else if (fili == "CQ" || fili == "cq") {
+                        document.write(`<center><h2>PRODUTO PESQUISADO: <br> <br>🥟 Salgadinhos  <br> <br>👍 Preço do produto na promoção: R$ 21,30 o  Kg ✔ <br> <br>🛒 Estamos esperando por você, aproveite!</h2> <br> <br>  <br> <br><h3>🏪 MERCADO PREÇOBOM LTDA  <br> <br> FILIAL CAMAQUÃ  <br> <br>  <br> <br> Rua das Rosas, 47  <br> <br> Bairro Camaquã  <br> <br> Porto Alegre / RS  <br> <br> Telefone: (51) 4321-8765`); 
+
+                    } else if (fili == "TZ" || fili == "tz") {
+                        document.write(`<center><h2>PRODUTO PESQUISADO: <br> <br>🥟 Salgadinhos  <br> <br>👍 Preço do produto na promoção: R$ 24,99 o Kg ✔ <br> <br>🛒 Estamos esperando por você, aproveite!</h2> <br> <br>  <br> <br><h3>🏪 MERCADO PREÇOBOM LTDA  <br> <br> FILIAL TRISTEZA  <br> <br>  <br> <br> Rua Felicidade, 47  <br> <br> Bairro Tristeza  <br> <br> Porto Alegre / RS  <br> <br> Telefone: (51) 2189-5834`);             
+                    
+                    } else {
+                            document.write(`<center>🚧 <br> <br> <br><h2>🏪 MERCADO PREÇOBOM LTDA <br> <br>❌ FILIAL PESQUISADA NÃO FAZ PARTE DA NOSSA REDE</h2> <br><h3>🛒 NOSSAS FILIAIS MAIS PRÓXIMAS DE VOCÊ: <br><h4>CN = Campo Novo <br> Rua Alegria 546 - Bairro Campo Novo - Porto Alegre RS - Tel. (51) 1234-5678 <br> <br> CQ = Camaquã <br> <br> Rua das Rosas 47 - Bairro Camaquã - Porto Alegre RS - Tel. (51) 4321-8765 <br> <br> TZ = Tristeza <br> Rua Felicidade 677 - Bairro Tristeza - Porto Alegre RS - Tel. (51) 2189-5834`);
+
+                    }
+
+                break; 
+
+                    default:
+                        document.write(`<center>🚧 <br> <br> <br><h2>🏪 MERCADO PREÇOBOM LTDA <br>Produto pesquisado não consta na promoção e/ou filial digitada é inválida ❌</h2> <br> <br> <h2>Produtos da promoção:<br><br>🍞 1 - Pão<br>🧀 2 - Queijo<br>🥩 3 - Presunto<br>🎂 4 - Bolo<br>🥛 5 - Leite<br>🍫 6 - Brigadeiro<br>🥟 7 - Salgadinhos</h2> <br> <h3>🛒 NOSSAS FILIAIS MAIS PRÓXIMAS DE VOCÊ: <br><h4>CN = Campo Novo <br> Rua Alegria 546 - Bairro Campo Novo - Porto Alegre RS - Tel. (51) 1234-5678 <br> <br> CQ = Camaquã <br> <br> Rua das Rosas 47 - Bairro Camaquã - Porto Alegre RS - Tel. (51) 4321-8765 <br> <br> TZ = Tristeza <br> Rua Felicidade 677 - Bairro Tristeza - Porto Alegre RS - Tel. (51) 2189-5834`);
+
+                    }
+
+                                                                                                                                                          // Version 1.0 2024-0411
+                                                                                                                                                          // Developer MatheusMSL
+
+</script>
+
+</body>
+

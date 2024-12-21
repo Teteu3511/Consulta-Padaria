@@ -1,0 +1,26 @@
+Campo Novo:
+- Pão: R$ 3,56 o Kg
+- Queijo: R$ 2,44 cada 100g
+- Presunto: R$ 1,90 cada 100g
+- Bolo: R$ 6,32 a unidade
+- Leite: R$ 4,11 o litro
+- Brigadeiro: R$ 2,50 a unidade
+- Salgadinhos R$ 23,27 o Kg
+
+Camaquã:
+- Pão: R$ 2,12 o Kg
+- Queijo: R$ 1,78 cada 100g
+- Presunto: R$ 0,87 cada 100g
+- Bolo: R$ 5,46 a unidade
+- Leite: R$ 3,78 o litro
+- Brigadeiro: R$ 1,75 a unidade
+- Salgadinhos R$ 21,30 o  Kg
+
+Tristeza:
+- Pão: R$ 4,89 o Kg
+- Queijo: R$ 3,50 cada 100g
+- Presunto: R$ 2,99 cada 100g
+- Bolo: R$ 7,43 a unidade
+- Leite: R$ 5,50 o litro
+- Brigadeiro: R$ 3,50 a unidade
+- Salgadinhos R$ 24,99 o Kg
